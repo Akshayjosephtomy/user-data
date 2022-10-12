@@ -15,15 +15,14 @@
                     <th scope="col">Email</th>
                     <th scope="col">Username</th>
                     <th scope="col">Password</th>
-                    <th scope="col">Address</th>
+                    <th scope="col">Phone</th>
                     
                   </tr>
                 </thead>
                 <tbody>
                   <tr *ngFor="let i of userData.users">
                     <td>{{i.id}}</td>
-                    <td></td>
-                    <td><img src="{{i.image}}" alt="N/A" class="rounded-circle"></td>
+                    <td><img height="75px" src="{{i.image}}" alt="N/A"></td>
                     <td>{{i.firstName}}</td>
                     <td>{{i.lastName}}</td>
                     <td>{{i.age}}</td>
@@ -31,7 +30,7 @@
                     <td>{{i.email}}</td>
                     <td>{{i.username}}</td>
                     <td>{{i.password}}</td>
-                    <td>{{i.address}}</td>
+                    <td>{{i.phone}}</td>
                   </tr>
                 </tbody>
               </table>
